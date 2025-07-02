@@ -1,7 +1,7 @@
 export default {
 	async fetch(request): Promise<Response> {
 		const OLD_URL = "developer.mozilla.org";
-		const NEW_URL = "mynewdomain.com";
+		const NEW_URL = "rba.dev";
 
 		class AttributeRewriter {
 			constructor(attributeName) {
